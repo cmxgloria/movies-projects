@@ -1,0 +1,4 @@
+<h1><%= @title %></h1>
+<% @result["Search"].each do |movie| %>
+  <a href="/movie/<%= movie["Title"] %>"><img src="<%= movie["Poster"] %>" alt="poster"></a>
+<% end %>

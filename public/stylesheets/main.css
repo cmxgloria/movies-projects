@@ -1,0 +1,6 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: -webkit-linear-gradient(to top, red, rgb(226, 77, 32));
+  background-color: mistyrose;
+  height: 100vh;
+}
